@@ -12,20 +12,20 @@ object Solution {
   // 1) eating at any time
   // 2) constant rate whenever mushrooms are there
 
-  val inputSize = "small"
-  var output: String = ""
+  // setup
+  val inputSize = "large"
+  var output = ""
   val filename = "A-" + inputSize + "-practice.in"
 
   def main(args: Array[String]) {
 
     val lines = Source.fromFile(filename).getLines()
-
     val ncase = lines.next().toInt
 
     for (mycase <- 1 to ncase) {
 
       val n = lines.next().toInt
-      val intervals: Array[Int] = lines.next().split(" ").map(_.toInt)
+      val intervals = lines.next().split(" ").map(_.toInt)
 
       val fst = solveFst(n, intervals)
       val snd = solveSnd(n, intervals)
@@ -34,54 +34,30 @@ object Solution {
     }
 
     print(output)
-    val file = new File("A-" + inputSize + "-output.txt")
-    val bw = new BufferedWriter(new FileWriter(file))
-    bw.write(output)
-    bw.close()
+
+    val writer = new PrintWriter(new File("A-" + inputSize + "-output.txt"))
+    writer.write(output)
+    writer.close()
   }
 
   // sum up difference between intervals
   def solveFst(n: Int, intervals: Array[Int]): Int = {
 
-    var sum = 0
-
-    for (i <- 0 to (n - 2)) {
-
-      sum += getDiff(i, intervals)
-    }
-
-    sum
+    intervals.sliding(2).map(l => getDiff(l(0) - l(1))) sum
   }
 
   // find the biggest difference between two intervals - this is the constant speed
   def solveSnd(n: Int, intervals: Array[Int]): Int = {
 
-    var diffList = List[Int]()
+    val maxdiff = intervals.sliding(2).map(l => getDiff(l(0) - l(1))) max
 
-    for (i <- 0 to (n - 2)) {
-
-      diffList = getDiff(i, intervals) :: diffList
-    }
-
-    val maxdiff = diffList.max
-    var sum = 0
-
-    for (i <- 0 to (n - 2)) {
-
-      sum += Math.min(intervals(i), maxdiff)
-    }
-
-    sum
+    // get the constant snack time or the number of shrooms
+    intervals.dropRight(1) map (x => Math.min(x, maxdiff)) sum
   }
 
-  def getDiff(i: Int, intervals: Array[Int]): Int = {
-
-    val diff = intervals(i) - intervals(i + 1)
-
-    if (diff > 0) {
-      return diff
-    }
-
-    0
+  // is pattern matching with conditional stmts still pattern matching? ^^
+  def getDiff(diff: Int): Int = diff match {
+    case _ if diff > 0 => diff
+    case _ => 0
   }
 }
