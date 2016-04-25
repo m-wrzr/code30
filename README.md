@@ -16,7 +16,7 @@ learning languages, algorithms, etc
 | 10 | 22.4 |   Scala  |   https://code.google.com/codejam/contest/4304486/dashboard#s=p0 |   
 | 11 | 23.4 |   Scala  |   https://code.google.com/codejam/contest/4304486/dashboard#s=p1 |  
 | 12 | 24.4 |  Python  |   https://code.google.com/codejam/contest/6254486/dashboard#s=p1 | 
-| 13 | 25.4 |    ...   |                                  ...                             |     
+| 13 | 25.4 |  Python  |   https://code.google.com/codejam/contest/6254486/dashboard#s=p2 |     
 | 14 | 26.5 |    ...   |                                  ...                             | 
 | 15 | 27.4 |    ...   |                                  ...                             |  
 | 16 | 28.4 |    ...   |                                  ...                             |  
