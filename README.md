@@ -19,7 +19,7 @@ learning languages, algorithms, etc
 | 13 | 25.4 |  Python  |   https://code.google.com/codejam/contest/6254486/dashboard#s=p2 |     
 | 14 | 26.5 |  Python  |   https://code.google.com/codejam/contest/8274486/dashboard      | 
 | 15 | 27.4 |  Python  |   https://code.google.com/codejam/contest/8274486/dashboard#s=p1 |  
-| 16 | 28.4 |    ...   |                                  ...                             |  
+| 16 | 28.4 |  Python  |   https://code.google.com/codejam/contest/2974486/dashboard      |  
 | 17 | 29.4 |    ...   |                                  ...                             | 
 | 18 | 30.4 |    ...   |                                  ...                             | 
 | 19 |  1.5 |    ...   |                                  ...                             | 
