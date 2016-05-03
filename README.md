@@ -24,7 +24,7 @@ learning languages, algorithms, etc
 | 18 | 30.4 |   Scala  |   https://code.google.com/codejam/contest/2334486/dashboard      | 
 | 19 |  1.5 |   Scala  |   https://code.google.com/codejam/contest/2994486/dashboard      | 
 | 20 |  2.5 |     Go   |   https://code.google.com/codejam/contest/11254486/dashboard     |     
-| 21 |  3.5 |    ...   |                                  ...                             |  
+| 21 |  3.5 |  Python  |   https://code.google.com/codejam/contest/6224486/dashboard      |  
 | 22 |  4.5 |    ...   |                                  ...                             | 
 | 23 |  5.5 |    ...   |                                  ...                             |     
 | 24 |  6.5 |    ...   |                                  ...                             |    
