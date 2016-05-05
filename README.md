@@ -26,7 +26,7 @@ learning languages, algorithms, etc
 | 20 |  2.5 |     Go   |   https://code.google.com/codejam/contest/11254486/dashboard     |     
 | 21 |  3.5 |  Python  |   https://code.google.com/codejam/contest/6224486/dashboard      |  
 | 22 |  4.5 |     Go   |   https://code.google.com/codejam/contest/3014486/dashboard      | 
-| 23 |  5.5 |    ...   |                                  ...                             |     
+| 23 |  5.5 |  Python  |   https://code.google.com/codejam/contest/1460488/dashboard#s=p1 |     
 | 24 |  6.5 |    ...   |                                  ...                             |    
 | 25 |  7.5 |    ...   |                                  ...                             | 
 | 26 |  8.5 |    ...   |                                  ...                             |    
