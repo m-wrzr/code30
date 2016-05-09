@@ -30,7 +30,7 @@ learning languages, algorithms, etc
 | 24 |  6.5 |  Python  |   https://code.google.com/codejam/contest/975485/dashboard       |    
 | 25 |  7.5 |  Python  |   https://code.google.com/codejam/contest/32013/dashboard        | 
 | 26 |  8.5 |  Python  |   https://code.google.com/codejam/contest/433101/dashboard       |    
-| 27 |  9.5 |    ...   |                                  ...                             |   
+| 27 |  9.5 |   Scala  |   https://code.google.com/codejam/contest/2434486/dashboard      |   
 | 28 | 10.5 |    ...   |                                  ...                             |     
 | 29 | 11.5 |    ...   |                                  ...                             | 
 | 30 | 12.5 |    ...   |                                  ...                      
